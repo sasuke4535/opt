@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-	background-image: url("../MEDIA/Gif/login.gif");
+	background-image: url("login.gif");
 	padding: 10px;
 	min-height: 100vh;
 	background-size: cover;
