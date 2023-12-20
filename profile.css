@@ -56,7 +56,7 @@ li a:hover {
 .mypic {
 	height: 150px;
 	width: 150px;
-	background-image: url("../MEDIA/Images/mypic.png");
+	background-image: url("mypic.png");
 	/* background-color: yellow; */
 	margin: 5px;
 	/* border: 1px solid black; */
