@@ -1,0 +1,101 @@
+* {
+	overflow: hidden;
+}
+
+body {
+	background-color: #d8f3dc;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #4f772d;
+}
+
+.infocontainer {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.aboutMe {
+	width: 400px;
+	height: 90vh;
+	background-color: #081c15;
+	margin-top: 10px;
+	background-size: contain;
+	display: flex;
+	flex-wrap: wrap;
+}
+.aboutMe2 {
+	width: 939px;
+	height: 90vh;
+	background-color: #081c15;
+	margin: 10px 0 0 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.mypic {
+	height: 150px;
+	width: 150px;
+	background-image: url("../MEDIA/Images/mypic.png");
+	/* background-color: yellow; */
+	margin: 5px;
+	/* border: 1px solid black; */
+	/* border: 2px solid black; */
+}
+
+.personalInfo {
+	height: 150px;
+	width: 230px;
+	margin: 5px;
+	color: #95d5b2;
+}
+
+.details {
+	height: 62vh;
+	width: 400px;
+	background-color: #081c15;
+	margin-top: 2px;
+	text-align: left;
+	color: #95d5b2;
+	font-family: "Roboto", sans-serif;
+}
+
+.boxes {
+	height: 43.5vh;
+	width: 459px;
+	background-color: #74c69d;
+	margin: 5px;
+	color: #081c15;
+}
+
+h4 {
+	margin: 0;
+}
+
+h2 {
+	font-family: "Anton", sans-serif;
+}
+
+h5 {
+	margin: 8px;
+}

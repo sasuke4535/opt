@@ -1,0 +1,43 @@
+body {
+	background-color: gray;
+	background-image: url("../MEDIA/Gif/port.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #4f772d;
+}
+
+h1,
+h4 {
+	text-align: center;
+	font-family: "Satisfy", cursive;
+}
+
+h1 {
+	font-size: 100px;
+}
+
+h4 {
+	font-size: 40px;
+}

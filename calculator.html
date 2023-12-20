@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="../CSSfiles/calculator.css" />
+	</head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.1/math.min.js"></script>
+
+	<body>
+		<div class="menu">
+			<ul>
+				<li><a href="..//HTMLfiles/login.html">Log Out </a></li>
+				<li><a href="../HTMLfiles/calculator.html">Mini-Calculator</a></li>
+				<li><a href="../HTMLfiles/gallery.html">Gallery</a></li>
+				<li><a href="../HTMLfiles/profile.html">Profile</a></li>
+				<li><a href="../HTMLfiles/home.html">Home</a></li>
+			</ul>
+		</div>
+		<div class="calculatorbody">
+			<div class="displayspace">
+				<div id="display" class="display"></div>
+			</div>
+			<div class="buttonscontainer">
+				<button onclick="clearDisplay()" class="special">C</button>
+				<button onclick="operation('/')" class="special">÷</button>
+				<button onclick="operation('*') " class="special">x</button>
+				<button onclick="del()" class="special">DEL</button>
+				<button onclick="operation('7')">7</button>
+				<button onclick="operation('8')">8</button>
+				<button onclick="operation('9')">9</button>
+				<button onclick="operation('-')" class="special">-</button>
+				<button onclick="operation('4')">4</button>
+				<button onclick="operation('5')">5</button>
+				<button onclick="operation('6')">6</button>
+				<button onclick="operation('+')" class="special">+</button>
+				<button onclick="operation('1')">1</button>
+				<button onclick="operation('2')">2</button>
+				<button onclick="operation('3')">3</button>
+				<button onclick="operation('%')">%</button>
+				<button onclick="operation('0')">0</button>
+				<button onclick="operation('.')">.</button>
+				<button onclick="equal()" id="equal">=</button>
+			</div>
+		</div>
+
+		<script src="../JSfiles/calculator.js"></script>
+	</body>
+</html>

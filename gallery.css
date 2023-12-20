@@ -1,0 +1,159 @@
+body {
+	background-color: #081c15;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #4f772d;
+}
+
+.moments {
+	width: 1333px;
+	height: 1625px;
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.favsongtitle,
+.momentstitle {
+	width: 1333px;
+	height: 80px;
+	background-color: #d8f3dc;
+	text-align: center;
+	margin: 0;
+}
+
+.favsongtitle {
+	background-color: #d8f3dc;
+	color: darkolivegreen;
+}
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#box {
+	width: 434px;
+	height: 800px;
+	background-color: #1b4332;
+	margin: 5px;
+}
+
+#pictures1 {
+	width: 400px;
+	height: 400px;
+	margin: 17px;
+	border: 1px solid white;
+}
+
+#picturedesc {
+	width: 400px;
+	height: 350px;
+	margin: 17px;
+	color: #b7e4c7;
+}
+
+.pic11 {
+	background-image: url("../MEDIA/Images/1.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.pic22 {
+	background-image: url("../MEDIA/Images/2.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.pic33 {
+	background-image: url("../MEDIA/Images/3.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.pic44 {
+	background-image: url("../MEDIA/Images/4.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.pic55 {
+	background-image: url("../MEDIA/Images/5.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.pic66 {
+	background-image: url("../MEDIA/Images/6.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+/* favsong code starts */
+#songbox {
+	width: 434px;
+	height: 400px;
+	background-color: white;
+	margin: 5px;
+}
+
+.favsong {
+	width: 1333px;
+	height: 840px;
+	background-color: #d8f3dc;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	font-size: 25px;
+}
+
+#songs {
+	height: 300px;
+	width: 424px;
+	background-color: wheat;
+	margin: 5px;
+}
+
+#songdesc {
+	height: 70px;
+	width: 424px;
+	background-color: #52b788;
+	margin: 5px;
+	color: black;
+}
+
+iframe {
+	height: 300px;
+	width: 424px;
+}
+
+#songtitle {
+	font-size: 30px;
+	margin: 0;
+}
+
+#singer {
+	font-size: 15px;
+	color: white;
+	margin: 0;
+}
